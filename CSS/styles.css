@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px ;
+}
+body{
+    background-color: cornsilk;
+}
+header li{
+    display:inline;
+    margin-left:35px ;
+    
+}
+header {
+    display:flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+main section{
+    display:grid;
+    grid-template-columns: auto ;
+}
+main section h3{
+   text-align: center;
+   color:red;
+}
+#About,#Experiance{
+    color:red;
+    text-align: center;
+}
+.allone{
+    
+    display:flex;
+    justify-content: space-between;
+}
+/* Style for the last section with class 'allone' */
+.allone:last-of-type {
+    background-color: lightblue; /* Example style */
+    padding: 20px; /* Example style */
+}

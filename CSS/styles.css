@@ -1,19 +1,31 @@
 *{
     margin:0px;
     padding:0px ;
+    padding: 2px;
+    margin: 3px;
 }
 body{
-    background-color: cornsilk;
+    background-color: black;
+    background-image: url('../p9mUO.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
 }
+body p{
+    width: 100%;
+    text-align: justify;
+    color: lightgray;
+   }
 header li{
     display:inline;
-    margin-left:35px ;
     
+    font-size: 23px;
 }
 header {
     display:flex;
     width: 100%;
-    margin-bottom: 20px;
+    font-size: 25px;
+margin-right: 100px;
 }
 main section{
     display:grid;
@@ -21,19 +33,27 @@ main section{
 }
 main section h3{
    text-align: center;
-   color:red;
+   color: yellow;
 }
 #About,#Experiance{
-    color:red;
+    color: yellow;
     text-align: center;
 }
 .allone{
     
     display:flex;
     justify-content: space-between;
+    
 }
-/* Style for the last section with class 'allone' */
-.allone:last-of-type {
-    background-color: lightblue; /* Example style */
-    padding: 20px; /* Example style */
+header,main h4 {
+    color: white; 
 }
+
+nav ul li a {
+    color: white; 
+}
+
+h1 {
+    color: orange; 
+}
+
